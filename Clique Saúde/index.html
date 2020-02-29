@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/a2042ec08a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <title>Clique saúde</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo: Clique Saúde" class="logo">
+        </a>
+        <button class="btn-menu">
+            <i class="fa fa-bars fa-lg"></i>
+        </button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Me cadastrar</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Como funciona?</a></li>
+                <li><a href="#">Parceiros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="servico">
+            <h2>Informações</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a 
+                galley of type and scrambled it to make a type specimen book.a.
+            </p>
+        </article>
+        <div class="para-seta">
+            <a href="#proposito">
+                <i class="fas fa-angle-down seta"></i>
+            </a>
+        </div>
+
+        <aside id="proposito"> 
+            <h3>Localização</h3>
+            <p>
+                Hospital especializado em Lúpus.
+            </p>
+        </aside>
+
+
+        <section class="como_funciona">
+            <div>
+                <h3>Como funciona nosso programa</h3>
+                <i class="fas fa-user-nurse doc"></i>
+                <h4>Médicos especializados</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book   
+                 </p>
+                <p>
+
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                </p>
+        </div>   
+
+        <i class="far fa-calendar-alt doc"></i>
+        <div>
+            <h4>Agenda</h4>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+        </div>
+
+        <i class="fas fa-pills doc"></i>
+        <div>
+            <h4>Medicamentos</h4>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+        </div>
+
+        <i class="fas fa-comment-medical doc"></i>
+        <div>
+            <h4>Receba seu laudo</h4>
+            <p>
+                Lorem ipsum.<br><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+            </p>
+        </div>
+
+        </section>
+
+
+
+        <aside class="aside">
+            <a href="cadastro.html">
+                <div class="cadastrar">
+                    <button>
+                       REGISTRE-SE AQUI
+                    </button>
+                </div>
+            </a>
+        </aside>
+
+        <footer>
+            <h3>Parceiros</h3>
+
+            <h4>
+                Cursos
+            </h4>
+                <p>Lorem ipsum,lorem ipsum</p>
+            <h4>Medicamentos</h4>
+                <p>Lorem ipsum,lorem ipsum</p>
+        </footer>
+    </main>
+
+
+
+        <!--Jquery-->
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+            $('.btn-menu').click(function(){
+                $('.menu').show();
+            });
+            $('.btn-close').click(function(){
+                $('.menu').hide();
+            });
+        </script>
+</body>
+</html>

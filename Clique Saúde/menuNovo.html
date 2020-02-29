@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style2.css">
+    <script src="https://kit.fontawesome.com/a2042ec08a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <title>Clique Saúde</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html">
+            <img src="img/logo.png" alt="logo: Clique Saúde" class="logo">
+        </a>
+        <button class="btn-menu">
+            <i class="fa fa-bars fa-lg"></i>
+        </button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Me cadastrar</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Como funciona?</a></li>
+                <li><a href="#">Parceiros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+            <!--Jquery-->
+            <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+            <script>
+                $('.btn-menu').click(function(){
+                    $('.menu').show();
+                });
+                $('.btn-close').click(function(){
+                    $('.menu').hide();
+                });
+            </script>
+</body>

@@ -1,0 +1,126 @@
+
+.servico h2{
+    margin-bottom: 40px;
+}
+form{
+    width: 100%;
+    position: static;
+    top: 40%;
+    left: 0;
+    display: block;
+}
+input[type='text'],input[type='email'],input[type='password'],input[type='number']{
+    margin-bottom: 2.3%;
+    width: 50%;
+    height: 35px;
+    border: 1px solid     #00242c;;
+    background-color:rgba(255, 255, 255, 0.3);
+    padding-left: 2%;
+    color:#FFF;
+}
+.genero{
+    position: relative;
+    right: 69px;
+    color:#00242c;
+}
+
+input[type='radio']{
+    position: relative;
+
+}
+::-webkit-input-placeholder {
+    color: #034553;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #FFF; 
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #FFF; }
+ 
+ :-ms-input-placeholder {  
+    color: #FFF; 
+}
+
+.btn{
+    height: 35px;
+    width: 26%;
+    border: 1px solid black;
+    background-color: rgb(2, 85, 165);
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.voltar{
+    background-color: rgba(2, 85, 165,.5)
+}
+
+
+/*@media*/
+@media (min-width: 37em) { 
+    form{
+        position: relative;
+        top: 50%;
+    }
+} 
+@media (min-width: 41em) {
+    form{
+        position: relative;
+        top: 50%;
+    }
+    .btn{
+        width: 15.59%;
+        margin-right: 0.1%;
+    }
+} /* 656px */
+
+@media (min-width: 47em) {
+    form{
+        position: relative;
+        top: 50%;
+    }
+    .btn{
+        width: 13.5%;
+        margin-right: 0.3%;
+    }
+} /* 752px */
+
+@media (min-width: 68em) {
+    input[type='text'],input[type='email'],input[type='password'],input[type='number']{
+        width: 30%;
+    }
+    input[type='radio']{
+        color:#00242c;
+        position: relative;
+        margin-left: 12%;
+    }
+    form{
+        position: relative;
+    }
+    .btn{
+        width: 9.5%;
+        margin-left: 0.2%;
+    }
+} /* 1088px */
+
+@media (min-width: 82em) {
+    form{
+        position: relative;
+        top: 50%;
+    }
+    .btn{
+        width: 15.7%;
+    }
+} /* 1312px */
+
+@media (min-width: 100em) { 
+    
+    form{
+        position: relative;
+    }
+    .btn{
+        width: 8%;
+        margin-left: 0.2%;
+    }
+} /* 1600px */

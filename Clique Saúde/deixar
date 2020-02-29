@@ -1,0 +1,319 @@
+
+@media screen and (min-width:778px){
+    /*===============CABECALHO============*/
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #FFF;
+        display: block !important;
+        position: relative;
+        left: -50px;
+    }
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+    .menu li a{
+        padding: 0;
+        float: left;
+        color: #130400;
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover{
+        border:none;
+        color:#0255a5;
+    }
+    .logo{
+        float: left;
+        width: 30%;
+        margin-left: 2%;
+        margin-top:-1%;
+    }
+    .proposito h3{
+        padding-top: 40px;
+        font-family: "Quicksand", Sans-serif;
+        font-weight: 600;
+        color: #666666;
+        font-size: 2em;
+    }
+    
+    .proposito p{
+        font-size: 1.5em;
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    /*=====*/
+    .como_funciona h3{
+        font-size: 2em;
+    }
+
+    .como_funciona p{
+        display: inline-block;
+        width: 50%;
+    }
+    
+    .img{
+        width: 40%;
+    }
+    
+    .politica{
+        margin-top: 20px;
+        border-bottom: 1px solid #0255a5;
+    }
+    
+
+    /*=====DEPOIMENTOS=====*/
+aside{
+    width: 100%;
+}
+.depoimentos{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    background-color: rgb(247,247,247);
+}
+.depoimentos div{
+    display: inline-block;
+    width: 33%;
+    }      
+
+    .educadores div{
+        width: 33%;
+        display: inline-block;
+    }
+    .educadores p{
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    /*===============CABECALHO============*/
+    body{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        position: relative;
+    }
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #FFF;
+        display: block !important;
+        position: relative;
+        left: -70px;
+    }
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+    .menu li a{
+        padding: 0;
+        float: left;
+        color: #130400;
+        font-size: 1.5em;
+        padding: 15px;
+    }
+    .menu li a:hover{
+        border:none;
+        color:#0255a5;
+    }
+    .logo{
+        float: left;
+        width: 20%;
+        margin-left: 2%;
+        margin-top:-1%;
+    }
+
+    .servico p {
+        margin-top: 4%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        color: #969696;
+    }
+
+    .proposito h3{
+        padding-top: 40px;
+        font-family: "Quicksand", Sans-serif;
+        font-weight: 600;
+        color: #666666;
+        font-size: 2em;
+    }
+    
+    .proposito p{
+        font-size: 1.5em;
+        margin-top: 30px;
+        padding-bottom: 50px;
+    }
+    
+    /*=====*/
+    .como_funciona{
+        background-color: #130400;
+    }
+    .como_funciona h3{
+        font-size: 2em;
+    }
+
+    .como_funciona p{
+        display: inline-block;
+        width: 50%;
+    }
+    
+    .img{
+        width: 40%;
+    }
+    
+    .politica{
+        margin-top: 20px;
+        border-bottom: 1px solid #0255a5;
+    }
+    
+
+    /*=====DEPOIMENTOS=====*/
+aside{
+    width: 100%;
+}
+.depoimentos{
+    margin: auto;
+    width: 98%;
+    text-align: center;
+    background-color: rgb(247,247,247);
+}
+.depoimentos div{
+    display: inline-block;
+    width: 33%;
+    }      
+
+    .educadores div{
+        width: 33%;
+        display: inline-block;
+    }
+    .educadores p{
+        line-height: 20px;
+    }
+    .servico h2 {
+        margin-top: 5%;
+        display: inline-block;
+        font-family: "Quicksand", Sans-serif;
+        font-size: 2em;
+        font-weight: 600;
+        color: #0255a5;
+    }
+    
+}
+
+
+
+        <a href="#">
+            <div class="cadastrar">
+                <button>
+                    Me Cadastrar!
+                </button>
+            </div>
+        </a>
+
+
+
+
+                <section class="depoimentos">
+
+
+            <h2>O que nosso pacientes dizem</h2>
+            <div>
+                <p class="aspas">"</p>
+                <p  class="texto_paciente">
+                    Comecei há alguns dias e já vejo meus níveis de glicose melhorarem.
+                     Não só estou tendo menos hiperglicemia, como também estou limitando minha 
+                     hipoglicemia e, 
+                    portanto, a necessidade de comer doces para compensar.
+                </p>
+                <p class="nome_paciente">Sueli A. C.</p>
+                <p class="idade_paciente">64 ANOS. 8 ANOS DM2</p>
+            </div>
+
+
+            <div>
+                <p class="aspas">"</p>
+                <p class="texto_paciente">
+                    Só consegui melhorar os valores da minha glicemia por conta de vocês e do 
+                    grupo pois sozinha é bem mais difícil. Estou amando o programa já que 
+                    sem suas sugestões e orientações não conseguiria atingir essa melhora, 
+                    considero esse acompanhamento bem importante.
+                </p>
+                <p class="nome_paciente">Regina C.</p>
+                <p class="idade_paciente">51 ANOS. 5 ANOS DM2</p>
+            </div>
+            <div>
+                <p class="aspas">"</p>
+                <p class="texto_paciente">
+                    Eu tinha péssimos hábitos alimentares, consumia 2 litros de refrigerante e o meu filho
+                     também. Depois dos conselhos da educadora consegui mudar isso e ficar mais atento 
+                     com minha medicação e aferir a glicemia. Só tenho a agradecer a atenção e 
+                    dedicação que têm comigo e todas as pessoas do grupo.
+                </p>
+                <p class="nome_paciente">Fabio C.</p>
+                <p class="idade_paciente">37 ANOS. 4 ANOS DM2</p>
+            </div>
+        </section
+
+
+
+
+
+
+                <section class="educadores">  
+            <h2>
+                Alguns dos nossos educadores
+            </h2>      
+            <div>
+                <img src="img/leticia.png">
+                <p>
+                    Nutricionista @ FMU <br>
+                    Diabetica há 23 anos<br>
+                    Nutricionista @ Dietkal
+                </p>
+            </div>
+
+            <div>
+                <img src="img/gabriela.png" >
+                <p>
+                    Psicóloga @ Mackenzie <br>
+                    Diabetica há 17 anos <br>
+                    Embaixador @ We Are Diabetes
+                </p>
+            </div>
+                <div>
+                    <img src="img/marina.png" >
+                    <p>
+                        Psicóloga @ Mackenzie <br>
+                        Diabetica há 17 anos <br>
+                        Embaixador @ We Are Diabetes
+                    </p>
+                </div>
+        </section>
+
+
+        
+/*====educadores======*/
+.educadores{
+    width: 100%;
+    text-align: center;
+}
+.educadores h2{
+    padding-top: 30px;
+    font-family: "Quicksand", Sans-serif;
+    font-weight: 600;
+    color: #666666;
+    font-size: 1.5em;
+}
