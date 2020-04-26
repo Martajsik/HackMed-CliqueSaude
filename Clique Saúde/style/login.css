@@ -1,106 +1,297 @@
-.servico h2{
-    margin-bottom: 40px;
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-form{
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #FEFEFE;
+    overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+main{
     width: 100%;
-    position: static;
-    top: 40%;
+}
+
+/*===============CABECALHO============*/
+
+.cabecalho{
+    position: fixed;
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    border-bottom: 2px solid #00bce3;
+    background-color: #FFF;
+}
+.logo{
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+    margin-top:-1%;
+}
+
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #FFF;
+    border-radius: 56px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-right: 5%;
+    background: linear-gradient(to right,#00bce3, #0055a4);
+    border: none;
+}
+
+
+/*==========MENU===========*/
+.menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
     left: 0;
-    display: block;
+    display: none;
+    background-color: rgba(0,0,0,.9);
 }
-input[type='text'],input[type='email'],input[type='password'],input[type='number']{
-    margin-bottom: 2.3%;
-    height: 35px;
-    border: 1px solid     #00242c;;
-    background-color:rgba(255, 255, 255, 0.3);
-    padding-left: 2%;
+
+.btn-close{
+    font-size: 1.5em; 
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin:2% 3% 0 0;
+    transition: .3s;
+}
+.btn-close:hover{
+    color: #06b9e2;
+}
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.menu li{
+    padding: 1.5%;
+}
+.menu li a{
+    font-size: 2em;
     color:#FFF;
+    padding: 1.5% 3%;
+    text-decoration: none;
+    transition: .3s;
 }
-::-webkit-input-placeholder {
-    color: #034553;
- }
- 
- :-moz-placeholder { /* Firefox 18- */
-    color: #FFF; 
- }
- 
- ::-moz-placeholder {  /* Firefox 19+ */
-    color: #FFF; }
- 
- :-ms-input-placeholder {  
-    color: #FFF; 
+.menu li a:hover{
+    border: 1px solid #0255a5;
+    color: #06b9e2;
+} 
+
+
+/*======main=======*/
+
+.servico{
+    width: 100%;
+}
+.servico h2{
+    margin-top: 15%;
+    display: inline-block;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    color: #0255a5;
+}
+.servico h3{
+    margin-top: 10%;
+    font-family: "Quicksand", Sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #0255a5;
+}
+.servico p{
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #969696;
+}
+.servico{
+    font-family: "Quicksand", Sans-serif;
+    font-size: 1.5em;
+    font-weight: 600; 
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+form{
+    margin: auto;
+    width: 300px;
+}
+
+input[type="text"],input[type="number"],input[type="password"],input[type="email"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #0055a4;
 }
 
 .btn{
-    height: 35px;
-    width: 90px;
+    width: 47.5%;
+    margin-bottom: 40px;
+    height: 30px;
     border: 1px solid black;
-    background-color: rgb(2, 85, 165);
-    color: #fff;
-    font-size: 1.5em;
+    color: #FFF;
+    font-size: 1em;
+    padding-bottom:30px;
 }
-
 .voltar{
-    background-color: rgba(2, 85, 165,.5)
+    background-color: rgba(2, 85, 165,.8);
+
+}
+.enviar{
+    background-color: #0255a5;
 }
 
 
-/*@media*/
-@media (min-width: 37em) { 
-    form{
-        position: relative;
-        top: 50%;
-    }
-} 
-@media (min-width: 41em) {
-    form{
-        position: relative;
-        top: 50%;
-    }
-    .btn{
-        width: 15.59%;
-        margin-right: 0.1%;
-    }
-} /* 656px */
 
-@media (min-width: 47em) {
-    form{
-        position: relative;
-        top: 50%;
-    }
-    .btn{
-        width: 13.5%;
-        margin-right: 0.3%;
-    }
-} /* 752px */
 
-@media (min-width: 68em) {
-    form{
-        position: relative;
-    }
-    .btn{
-        width: 9.5%;
-        margin-left: 0.2%;
-    }
-} /* 1088px */
 
-@media (min-width: 82em) {
-    form{
-        position: relative;
-        top: 50%;
-    }
-    .btn{
-        width: 6.8%;
-    }
-} /* 1312px */
 
-@media (min-width: 100em) { 
+
+
+
+@media screen and (min-width:900px){
+    /*===============CABECALHO============*/
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #FFF;
+        display: block !important;
+        position: relative;
+        left: -50px;
+    }
+    .menu li{
+        padding: 0;
+        float: left;
+    }
+    .menu li a{
+        padding: 0;
+        float: left;
+        color: #130400;
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover{
+        border:none;
+        color:#0255a5;
+    }
     
-    form{
+}
+@media screen and (max-width:800px){
+    .logo{
+        width: 40%;
+    }
+    .servico h2{
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .logo{
+        width: 40%;
+    }
+    .servico h2{
+        margin-top: 40%;
+    }
+}
+@media screen and (min-width:1200px){
+    /*===============CABECALHO============*/
+    body{
+        overflow-x: hidden;
+    }
+    .cabecalho{
+        height: 80px;
+        margin-bottom: -200px;
+    }
+    .btn-menu{display: none;}
+    .btn-close{display: none;}
+
+    .menu{
+        width: auto;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: #FFF;
+        display: block !important;
         position: relative;
     }
-    .btn{
-        width: 8%;
-        margin-left: 0.2%;
+    .menu li{
+        padding: 0;
+        float: left;
     }
-} /* 1600px */
+    .menu li a{
+        padding: 0;
+        float: left;
+        color: #130400;
+        font-size: 1.5em;
+        padding: 15px;
+    }
+    .menu li a:hover{
+        border:none;
+        color:#0255a5;
+    }
+    .logo{
+        float: left;
+        width: 20%;
+        margin-left: 2%;
+        margin-top:-1%;
+    }
+
+}
